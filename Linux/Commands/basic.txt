@@ -1,0 +1,64 @@
+man = manual
+echo "Venkat Sai"
+echo "Venkat Sai" > file_name
+say "Venkat sai Kondra" 
+whoami
+id
+date
+date > file_name
+cd = change directory
+ls = list
+ls -la = hidden files 
+mkdir =  make directory
+rmdir = remove directory
+touch = create an empty file
+open <file_name> =open's file
+Open . =open the finder
+pwd = print working directory
+rm = remove file
+rm -rf = force remove directory
+cat = show's text in terminal
+cat <file1> <file2>
+less = open's the text unto we want
+uname -s =user name :Darwin-MAC OS
+                    :Linux -Linux
+mv file_name destination= move 
+head = beginning of the file
+tail = end of the file
+wc = usefull information
+wc -l = no of lines
+wc -w = no of words
+wc -c = no of characters
+{piping} = cat file1 file2 | wc -l > number.txt
+sort <file_name> 
+sort -n numeric_text = sort numeric numbers
+sort -rn  numeric_text = decreasing order
+sort -un numeric_txt =unic sort order
+uniq <file_name>
+Uniq -d <file_name> = only duplicates
+uniq -c <file_name> = count the duplicates
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+brew install filet
+figlet -w 40 "Venkat sai Kondra"  
+brew install sl
