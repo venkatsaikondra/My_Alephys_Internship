@@ -1,5 +1,9 @@
+{Command N}=New terminal
 man = manual
 echo "Venkat Sai"
+echo ~
+echo $PATH
+echo $USER
 echo "Venkat Sai" > file_name
 say "Venkat sai Kondra" 
 whoami
@@ -9,13 +13,16 @@ date > file_name
 cd = change directory
 ls = list
 ls -la = hidden files 
+l s -l *.txt
 mkdir =  make directory
 rmdir = remove directory
 touch = create an empty file
+touch app.{js,py}   
 open <file_name> =open's file
 Open . =open the finder
 pwd = print working directory
 rm = remove file
+rm *.?? = remove 2 character extensions 
 rm -rf = force remove directory
 cat = show's text in terminal
 cat <file1> <file2>
@@ -37,27 +44,22 @@ sort -un numeric_txt =unic sort order
 uniq <file_name>
 Uniq -d <file_name> = only duplicates
 uniq -c <file_name> = count the duplicates
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+diff = return difference in the text files
+find . -name '*.txt' = the files with '.txt' extensions
+grep = search inside files
+du = files and there sizes
+df = disk usage information
+history | less
+ps = list of user-initiated processescurently running in the current session
+top
+kill <PID>
+tar = grouping multiple files into single file
+tar -cf archive.txt file1 file2 
+nano <filename>  = editor (ctrl-x : quit without editing)
+alias
+ln = pointing to another file
+who = users logged into the system
+su <user name> = switch user
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 brew install filet
 figlet -w 40 "Venkat sai Kondra"  

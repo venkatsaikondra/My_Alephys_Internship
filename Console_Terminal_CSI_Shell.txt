@@ -1,0 +1,18 @@
+The terms Terminal, console, command line, CLI, and shell. People often use these words interchangeably but the truth is they're actually different things.
+{CONSOLE}
+The console is the physical device that allows you to interact with the computer.
+
+In plain English, it's your computer screen, keyboard, and mouse. As a user, you interact with your computer through your console.
+
+{TERMINAL}
+A terminal is a text input and output environment. It is a program that acts as a wrapper and allows us to enter commands that the computer processes.
+
+In plain English again, it's the "window" in which you enter the actual commands your computer will process.
+
+{Shell}
+A shell is a program that acts as command-line interpreter. It processes commands and outputs the results. It interprets and processes the commands entered by the user.
+
+Same as the terminal, the shell is a program that comes by default in all operating systems, but can also be installed and uninstalled by the user.
+
+{Command line or CLI (command line interface)}
+The CLI is the interface in which we enter commands for the computer to process. In plain English once again, it's the space in which you enter the commands the computer will process.

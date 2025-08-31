@@ -1,0 +1,29 @@
+git init will create a new local repository for you.
+
+git init // output:
+Initialized empty Git repository in /home/German/Desktop/testFolder/.git/
+
+git add adds one or more files to staging. You can either detail a specific file to add to staging or add all changed files by typing git add .
+
+git commit commits your changes to the repository. Commits must always be must be accompanied by the -m flag and commit message.
+
+git commit -m 'This is a test commit' // output:
+[master (root-commit) 6101dfe] This is a test commit
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 test.js
+
+git status tells you what branch are you currently on and whether you have changes to commit or not.
+
+git clone allows you to clone (copy) a repository into the directory you're currently in. Keep in mind you can clone both remote repositories (in GitHub, GitLab, and so on) and local repositories (those that are stored in your computer).
+
+
+git remote add origin is used to detail the URL of the remote repository you're going to use for your project. In case you'd like to change it at some point, you can do it by using the command git remote set-url origin.
+
+git remote -v lets you list the current remote repository you're using.
+
+git push // output:
+Counting objects: 2, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (2/2), 266 bytes | 266.00 KiB/s, done.
+Total 2 (delta 0), reused 0 (delta 0)
