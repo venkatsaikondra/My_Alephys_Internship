@@ -1,0 +1,9 @@
+curl - Transfer a url
+sudo apt install curl - installation 
+which curl - To check the curl is installed or not
+
+curl https://kernel.org 
+Output:code for the website
+
+Curl -o source.html https://kernel.org
+

@@ -1,0 +1,1 @@
+An Operating system is a mediator between user interface and hardware components.Linux architecture = {User Interface -> Shell [interacts with kernel]-> kernel {heart of operating system}-> hardware}.

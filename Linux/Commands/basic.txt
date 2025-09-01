@@ -60,6 +60,7 @@ alias
 ln = pointing to another file
 who = users logged into the system
 su <user name> = switch user
+pinfo = page info 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 brew install filet
 figlet -w 40 "Venkat sai Kondra"  

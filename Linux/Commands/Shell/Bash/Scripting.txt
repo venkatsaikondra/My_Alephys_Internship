@@ -1,0 +1,4 @@
+#!/bin/bash -> SHEBANG
+Once you defined a variable and don't wanna change it until end of the script.
+
+readonly var_name="Venkat Sai Kondra"
