@@ -1,0 +1,6 @@
+Interface card -> IP address
+nmcli device status
+nmcli connection show  
+Ip addr
+nmcli connection add type ethernet con-name home
+ 

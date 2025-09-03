@@ -1,0 +1,27 @@
+Disk Partitions
+----------------
+->primary
+->extended
+->logical (in extended partion we can make logical partitions)
+
+Sudo fdisk -l
+
+Partprobe 
+
+Mkfs-> make file system
+
+Master block
+Super block
+Inode block
+Data block
+
+Sudo -l /dev/sdb
+
+-------------------------------------------------------------------------------
+Super -> 0
+Administrator ->1000 to 65000
+Root
+Did
+ Useradd iamgroot
+ passwd iamgroot
+ usermod -l venkat iamgroot

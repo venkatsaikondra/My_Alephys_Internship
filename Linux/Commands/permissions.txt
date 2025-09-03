@@ -1,0 +1,30 @@
+File Permissions
+----------------
+Command = ls -l
+
+Permission of directory are considered into
+--------------------------------------------
+->Owner
+->Group
+->Others
+
+chown -> change owner
+chmod -> change mode
+
+linux scoring system 
+---------------------
+r = 4
+w = 2
+x = 1
+
+Changing Mode
+-------------------
+sudo chmod 774 main.py
+
+Common Permissions
+------------------
+644 -> FileBaseline
+755 -> Directory Baseline
+400 -> Key Pair
+
+
