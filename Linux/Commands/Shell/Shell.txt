@@ -1,3 +1,49 @@
+
 ->Shell script consists of set of commands to execute sequentially.
 ->All the commands execute sequentially.
 ->Some task like file manipulation, program execution, user interaction, automation of tasks etc can be done.
+  
+
+-----------------------------------------------------------------------------------------------------
+Linux Architecture
+
+User Interface -> Shell ->Kernel(Heart of Operating system)-> harware
+
+To go to root ->su - 
+Ip address command -> ip addr
+    192.168.122.1
+Server name-> systemctl status sshd
+         systemctl restart sshd
+        Systemctl enable ssh
+Ssh-keygen -t rsa -> Generating a key for authentication between client and server
+
+->cryptographic network protocol that enables secure remote access and data transfer over an unsecured network.
+->port number for ssh is 22
+
+openSSH client = the closest thing to a default or standard remote solution
+  
+
+ssh -p 2222 usernme@ip_address 
+
+ssh or secure shell is a network communication protocol that enables two computers/devices to communicate and share data.
+
+It is used to access another linux server or accessing a linux server from a terminal.
+
+rpm -qa | grep ssh ->Checking ssh server is installed on linux server
+
+ifconfig
+
+Ssh key-gen
+
+Ssh-copy-id
+
+PING=packet internet global
+
+Root :  192.168.122.1
+
+ifconfig
+-------------------------------------------------------------------------------------------------
+SCP
+scp file root@ip_addr:/root/
+
+
